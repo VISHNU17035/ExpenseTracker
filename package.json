@@ -1,13 +1,12 @@
 {
-  "name": "expense-tracker",
+  "name": "expensetracker",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-},
+    "build": "npx vite build",
+    "dev": "npx vite"
+  },
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
